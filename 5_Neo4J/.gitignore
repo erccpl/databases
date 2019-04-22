@@ -1,0 +1,7 @@
+*.pdf
+*.zip
+*.tgz
+*.docx
+.ipynb_checkpoints/
+cinegraph.db/
+neo4jgraph/
