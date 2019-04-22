@@ -2,6 +2,7 @@
 *.docx
 *.json
 
+
 .idea/
 bin/
 node_modules/
@@ -9,3 +10,4 @@ public/
 routes/
 views/
 lab6.iml
+take-a-rest/ 

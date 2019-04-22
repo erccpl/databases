@@ -1,7 +1,4 @@
 
-
---VIEWS 2 
-
 --d) wycieczki_miejsca(kraj,data, nazwa_wycieczki,liczba_miejsc, liczba_wolnych_miejsc)
 create or replace view wycieczki_miejsca2
   as

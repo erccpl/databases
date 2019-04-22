@@ -1,20 +1,16 @@
 
-
--- 4. READ PROCEDURES/FUNCTIONS 2
-
---DECLARATIONS
 create or replace package mod_procedures2 as
 
---Procedure declarations
+-- Procedure declarations
   procedure zmien_liczbe_miejsc2(ID_WYCIECZKI_ in int, LICZBA_MIEJSC_ in int);
 
 end mod_procedures2;
 
 create or replace package body mod_procedures2 as
 
---c) zmien_liczbe_miejsc(id_wycieczki, liczba_miejsc), nie wszystkie zmiany liczby miejsc są
---dozwolone, nie można zmniejszyć liczby miesc na wartość poniżej liczby zarezerwowanych
---miejsc
+-- c) zmien_liczbe_miejsc(id_wycieczki, liczba_miejsc), nie wszystkie zmiany liczby miejsc są
+-- dozwolone, nie można zmniejszyć liczby miesc na wartość poniżej liczby zarezerwowanych
+-- miejsc
 procedure zmien_liczbe_miejsc2(ID_WYCIECZKI_ in int, LICZBA_MIEJSC_ in int)
   as
     trip_exists number;

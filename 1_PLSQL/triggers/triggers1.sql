@@ -1,7 +1,5 @@
 
-
--- 8. TRIGGERED LOGGING
-
+--Triggers 1
 --a)Trigger obsługujący dodanie rezerwacji
 create or replace trigger nowa_rezerwacja_trig1
 after insert on rezerwacje

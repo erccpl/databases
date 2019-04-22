@@ -1,9 +1,5 @@
 
-
--- 4. READ PROCEDURES/FUNCTIONS 2
-
---DECLARATIONS
-create or replace package read_funcs2 as
+create or replace package read_funcs2 AS
 
   type uczestnik_record is record (
     IMIE VARCHAR2(50),

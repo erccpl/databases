@@ -1,8 +1,5 @@
 
-
--- 9. CHANGE HANDLING OF FREE SPOTS
-
---Triggers
+--Triggers 2
 --a) Trigger obsługujący dodanie rezerwacji
 drop trigger nowa_rezerwacja_trig1;
 create or replace trigger nowa_rezerwacja_trig2

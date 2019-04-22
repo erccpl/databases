@@ -1,8 +1,4 @@
 
-
--- 5. MODIFYING PROCEDURES/FUNCTIONS 2
-
---DECLARATIONS
 create or replace package mod_procedures as
 
 --Procedure declarations

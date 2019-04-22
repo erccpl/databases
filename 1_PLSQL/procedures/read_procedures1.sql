@@ -1,8 +1,4 @@
 
-
--- 4. READ PROCEDURES/FUNCTIONS
-
---DECLARATIONS
 create or replace package read_funcs as
 
   type uczestnik_record is record (

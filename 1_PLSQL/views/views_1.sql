@@ -1,8 +1,4 @@
 
-
---3. VIEWS 1
-
-
 --a) wycieczki osoby
 CREATE OR REPLACE VIEW wycieczki_osoby
   AS
